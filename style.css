@@ -1,0 +1,30 @@
+div {
+  position: absolute;
+  width: 1300px;
+  height: 650px;
+  border: solid 4px black;
+  margin: 5px 100px 5px 100px;
+}
+
+h1 {
+  position: relative;
+  left: 35%;
+  padding-right: 50px;
+  display: inline-block
+}
+.color
+{
+  color: red;
+}
+.egg {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.basket {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0px;
+}
