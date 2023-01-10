@@ -51,6 +51,7 @@ let countDown = () => {
             timeObject.innerHTML = `GAME OVER!`
             timeObject.classList.add("color")
             clearInterval(id)
+            document.removeEventListener("keydown", moveBasket)
             if(prompt("Do you want to play again?\nENTER y")=='y')
             {
                 location.reload()
